@@ -12,6 +12,7 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 
 const routes: Routes = [
   {path: "category/:id/:name", component: ProductListComponent},
+  {path: "products/:id", component: ProductDetailsComponent},
   {path: "search/:keyword", component: ProductListComponent},
   {path: "category", component: ProductListComponent},
   {path: "products", component: ProductListComponent},

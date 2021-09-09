@@ -1,4 +1,5 @@
 export class Product {
+    id !: number;
     sku !: string | undefined;
     name !: string | undefined;
     description !: string | undefined;
